@@ -1,15 +1,15 @@
 cask "battery-notifier" do
-  version "4.2.0"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  version "4.2.1"
+  sha256 "c92024319e8c14290f921585d6dc57c233f3c719c1b1a2d69ad08e85771fca15"
 
-  url "https://github.com/Sandip124/BatteryNotifier/releases/download/v#{version}/BatteryNotifier-osx-arm64.tar.gz"
+  url "https://github.com/Sandip124/BatteryNotifier/releases/download/v#{version}/BatteryNotifier-osx-arm64.zip"
   name "BatteryNotifier"
   desc "Cross-platform battery monitoring and notification app"
   homepage "https://github.com/Sandip124/BatteryNotifier"
 
   depends_on macos: ">= :ventura"
 
-  binary "BatteryNotifier"
+  app "BatteryNotifier.app"
 
   zap trash: [
     "~/Library/Application Support/BatteryNotifier",
