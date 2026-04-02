@@ -1,6 +1,6 @@
 cask "battery-notifier" do
   version "4.2.1"
-  sha256 "3a6c75d9158684553053f72f19dd3f0dd5f181e70a1721629c6101db54176229"
+  sha256 "c92024319e8c14290f921585d6dc57c233f3c719c1b1a2d69ad08e85771fca15"
 
   url "https://github.com/Sandip124/BatteryNotifier/releases/download/v#{version}/BatteryNotifier-osx-arm64.zip"
   name "BatteryNotifier"
